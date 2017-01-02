@@ -46,11 +46,11 @@ public class ColorChange : MonoBehaviour {
 
 			ProcGen partScript = names[i];
 			string partName = partScript.bodypart;
-			if (partName == "Chest" || partName == "Decor" || partName == "Shoulder") {
+			if (partName.Contains("Chest") || partName.Contains("Decor") || partName.Contains("Shoulder")) {
 				rend.material.color = Color.HSVToRGB (hue2, 1, 1); 
-			} else if (partName == "Head" || partName == "Iris") {
+			} else if (partName .Contains("Head") || partName .Contains("Iris")) {
 				rend.material.color = Color.HSVToRGB (hue3, 1, 1);
-			} else if (partName == "EyeWhite" || partName == "Mouth") {
+			} else if (partName .Contains("EyeWhite") || partName .Contains("Mouth")) {
 				//dont change eye white color
 			}
 			else {
