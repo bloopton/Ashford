@@ -4,8 +4,10 @@ using System.Collections;
 public class Manager : MonoBehaviour {
 	public bool hasSpecHead;
 	public float hueG;
+	public int whichShoulder;
 	// Use this for initialization
 	void Awake () {
+		whichShoulder = 0; //0 is default NULL state
 		hasSpecHead = false;
 		if (Random.Range (1, 10) <= 2) {
 			hasSpecHead = true;
