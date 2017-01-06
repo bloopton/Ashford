@@ -8,7 +8,9 @@ AnimatorOverrideController:
   m_Name: RightShoulder_Ov
   m_Controller: {fileID: 9100000, guid: 3b4f085c55c954aa9a5e2b807b2896f7, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 275aa89983e6c4b72aeb6d40ad037eaf, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 403097b7c74fa45349a924047e19b5fc, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 57d2c0463890341cdbb5373124e2dcaa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c46c5f95215de4e4490f7b3f7d4a2d2b, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: e4ca3c3e8f436498cb699c06abba0b4d, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 50698f50221204d03a6ae263bb859ddf, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 275aa89983e6c4b72aeb6d40ad037eaf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 403097b7c74fa45349a924047e19b5fc, type: 2}

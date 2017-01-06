@@ -9,6 +9,7 @@ public class ProcGenAnimations : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		bodypart = gameObject.name;
 		GameObject wholeBody = transform.parent.gameObject;
 		Manager ms = wholeBody.GetComponent<Manager> ();
 
